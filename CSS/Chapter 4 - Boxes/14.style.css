@@ -1,0 +1,13 @@
+p.one {
+  border: 10px solid transparent;
+  -moz-border-image: url("images/border.png") 11 11 11 11 stretch;
+  -webkit-border-image: url("images/border.png") 11 11 11 11 strecch;
+  border-image: url("images/i.png") 11 11 11 11 stretch;
+}
+
+p.two {
+  border: 10px solid transparent;
+  -moz-border-image: url("images/border.png") 11 11 11 11 round;
+  -webkit-border-image: url("images/border.png") 11 11 11 11 round;
+  border-image: url("images/border.png") 11 11 11 11 round;
+}

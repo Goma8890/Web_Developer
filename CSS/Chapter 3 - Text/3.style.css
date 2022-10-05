@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "ChunckFiveRegular";
+  src: url("fonts/chunkfive.eot");
+}
+
+h1,
+h2 {
+  font: ChunkFiveRegular, Georgia, serif;
+}

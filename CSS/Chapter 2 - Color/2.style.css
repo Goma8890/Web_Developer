@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(200, 200, 200);
+  padding: 20px;
+}
+
+h1 {
+  background-color: darkcyan;
+}
+
+h2 {
+  background-color: #ee3e8e;
+}
+
+p {
+  background-color: white;
+}

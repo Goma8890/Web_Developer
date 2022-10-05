@@ -1,0 +1,13 @@
+p.one {
+  width: 30%;
+  height: 70px;
+  border: 4px solid;
+  border-color: #0088dd;
+}
+
+p.two {
+  width: 30%;
+  height: 70px;
+  border: 4px solid;
+  border-color: #bbbbaa #111 #ee3e80 #0088dd;
+}

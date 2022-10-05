@@ -1,0 +1,12 @@
+tr#info,
+hr {
+  color: #0088dd;
+}
+
+td.description {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+}

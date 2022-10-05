@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+  </head>
+  <body>
+    <h1 id="top">Kitchen Garden Calendar</h1>
+    <p id="introduction">
+      Here you can read our handy guide about what to do when.
+    </p>
+    <h2>Spring</h2>
+    <ul>
+      <li>
+        <a href="mulch.html">Spring mulch vegetable beds</a>
+      </li>
+      <li>
+        <a href="potato.html">Plant out early potatoes</a>
+      </li>
+      <li>
+        <a href="tomato.html">Show tomato seeds</a>
+      </li>
+      <li>
+        <a href="beet.html">Show beet seeds</a>
+      </li>
+      <li>
+        <a href="zucchini">Show zucchini seeds</a>
+      </li>
+      <li>
+        <a href="rhubarb">Deadhead rhubarb flowers</a>
+      </li>
+    </ul>
+    <p class="note">
+      This page was written by
+      <a href="mailto:monteirobarata@hotmail.com">monteirobarata@hotmail.com</a>
+      <a href="http://www.example.org">Example</a>
+    </p>
+    <p>
+      <a href="#top">Top of page</a>
+    </p>
+  </body>
+</html>
+
+<!-- Universal Selecctor -> * {}: targets all elemnts on the page  -->
+<!-- Type Selector -> h1, h2, h3 {}: targets the <h1>, <h2> and <h3> elements -->
+<!-- Class Selector -> .note {}: argets any element whose class attribute has a value of note. 
+                      p.note {}: targets only <p> elements whose class attribute has a value of note. -->
+<!-- ID Selector -> #introduction {}: argets the element whose id attribute has a value of introduction. -->
+<!-- Child Selector -> li > a {}: targets any <a> elements that are children of an <li> element (but not other <a> elements in the page)-->
+<!-- Descendant Selector -> p a {}: Targets any <a> elements that sit inside a <p> element, even if there are other elements nested between them -->
+<!-- Adjacent Sibling Selector -> h1 + p {}: targets the first <p> element after any <h1> element (but not other <p> elements) -->
+<!-- General Sibling Selector -> h1 ~ p {}: if you had two <p> elements that are siblings of an <h1> element, this rule would apply to both -->
