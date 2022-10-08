@@ -1,0 +1,15 @@
+body {
+    background-image: url("images/tulip.gif");
+    background-repeat: no-repeat;
+    /* background-position: left top; */
+    /* background-position: left center; */
+    /* background-position: left bottom; */
+    background-position: center top;
+    /* background-position: center center; */
+    /* background-position: center bottom; */
+    /* background-position: right top; */
+    /* background-position: right center; */
+    /* background-position: right bottom; */
+    color: #665544;
+    padding: 20px;
+}
