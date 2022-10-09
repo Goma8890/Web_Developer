@@ -1,8 +1,12 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
 div {
   border-bottom: 1px solid #efefef;
   margin: 10px;
   padding-bottom: 10px;
-  width: 260px;
+  width: 270px;
 }
 
 .title {

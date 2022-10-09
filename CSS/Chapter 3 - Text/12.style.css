@@ -1,7 +1,9 @@
 h1 {
-  background-color: url("images/pur.jpeg");
+  background-image: url("images/logo.gif");
   background-repeat: no-repeat;
   text-indent: -9999px;
+  width: 165px;
+  height: 100px;
 }
 
 .credits {

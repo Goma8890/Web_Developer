@@ -1,9 +1,19 @@
 p {
-  border: 5px solid #ccc;
-  padding: 20px;
-  width: 275px;
-  text-align: center;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  width: 197px;
+  height: 54px;
+  border: 11px solid #fff;
+}
+
+p.one {
+  border: 10px solid transparent;
+  -moz-border-image: url("images/dots.gif") 11 11 11 11 stretch;
+  -webkit-border-image: url("images/dots.gif") 11 11 11 11 strecch;
+  border-image: url("images/dots.gif") 11 11 11 11 stretch;
+}
+
+p.two {
+  border: 10px solid transparent;
+  -moz-border-image: url("images/dots.gif") 11 11 11 11 round;
+  -webkit-border-image: url("images/dots.gif") 11 11 11 11 round;
+  border-image: url("images/dots.gif") 11 11 11 11 round;
 }

@@ -1,11 +1,19 @@
-p.one {
-  border-width: 2px;
-}
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111;
+  }
 
-p.two {
-  border-width: thick;
-}
+div {
+    border: 2px solid #e7642c;
+    width: 200px;
 
-p.three {
-  border-width: 1px 4px 12px 4px;
 }
+  
+h2, p {
+
+    width: 200px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+  
+  

@@ -1,3 +1,9 @@
+p {
+    font-size: 200%;
+    padding: 20px;
+    text-align: center;
+}
+
 p.one{
     background-color: #eee;
     color: #666;

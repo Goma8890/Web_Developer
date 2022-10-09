@@ -3,7 +3,6 @@
   src: url("fonts/chunkfive.eot");
 }
 
-h1,
-h2 {
+h1, h2 {
   font: ChunkFiveRegular, Georgia, serif;
 }

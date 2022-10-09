@@ -1,3 +1,36 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+}
+
+input {
+  border-bottom: 1px dotted #dcdcdc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 5px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border: 1px dotted #dcdcdc;
+  outline: none;
+}
+
+input#submit {
+  color: #fff;
+  background-color: #665544;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+}
+
+input#submit:hover {
+  color: #665544;
+  background-color: #efefef;
+}
+
 fieldset {
   width: 350px;
   border: 1px solid #dcdcdc;
@@ -15,8 +48,3 @@ legend {
   text-transform: uppercase;
 }
 
-input#button {
-  margin: 5px;
-  color: #efefef;
-  background-color: rgb(70, 27, 27);
-}
